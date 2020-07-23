@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<style>
+    body {
+        /*background-color: rgb(180, 180, 180);*/
+        /*background-image: url(cork-board.png);*/
+        color: rgb(0, 0, 0);
+        font-family:georgia,palatino,book antiqua,palatino linotype,serif;
+        display: flex;
+        flex-direction: column;
+        height:100%;
+    }
+    nav {
+        display: flex;
+        font-size: 24px;
+        font-family: palatino;
+    }
+    nav a:hover {
+
+    }
+    nav a:visited {
+        color: black;
+    }
+    nav div{
+        border: 0px #cfc solid;
+    }
+    main {
+        background-image: url();
+        background-position-y: center;
+        height:95%;
+        filter: blur(0.4px);
+        -webkit-filter: blur(0.4px);
+    }
+    html {
+        height:96%;
+        overflow-y:scroll;
+    }
+    .navbox1 {
+      flex: 2;
+      text-align: end;  
+    }
+    .navbox2 {
+        flex: 1;
+        text-align:center;
+    }
+    .navbox3 {
+        flex: 2;
+    }
+    #separating-line {
+        border: 1px black solid;
+        margin-top:-15px;
+        margin-bottom: -9px;
+    }
+    .main-picture {
+        border-color: darkgrey;
+        border-width: 0px;
+        border-style: solid;
+        border-radius: 50%;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        padding-bottom: 0.5em;
+    } 
+    #title {
+        align-content: center;
+        /*background-color: aqua;*/
+        text-align: center;
+        font-size: 46px;
+    }
+    
+    }
+    #front-page-content{ 
+        display: flex;
+        
+    }
+    .spacebox {
+        flex: 22
+    }
+    .image {
+        text-align: center;
+        flex: 1;
+        background-color: rgba(0,0,0, 0.05);
+        border-radius: 5%;
+        height: 230px;
+
+    }
+    .about-me {
+        flex: 24;
+        border:10px white;
+        background-color: rgba(0,0,0, 0.0);
+        color: black;
+        padding-right: 4px;
+        padding-left: 1em;
+        font-family: Open Sans;
+        font-size: larger;
+        font-weight: 100;
+    }
+    nav a:link {
+        text-decoration: none;
+        color: black;
+    }
+    nav a:visited {
+    text-decoration: none;
+}
+    nav a:hover {
+        color: #3366CC; text-decoration: underline;
+    }
+    h1 {
+        font-weight: 700;
+    }
+    footer {
+        text-align: center;
+    }
+    footer a:link {
+        text-decoration: none;
+        color:black
+    }
+    footer a:hover {
+        color: blanchedalmond;
+    }
+</style>
+<html>
+    <head>
+        <title>Ethan Wu</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Ethan Wu</h1>
+            <nav>
+                <div class="navbox1">
+                    <a href="main.html">Home</a> 
+                </div>
+                <div class="navbox2">
+                    <a href="articles.html">Articles</a>
+                </div>
+                <div class="navbox3">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav> 
+            <br><div id="separating-line"></div><br>
+        </header>
+        <main>
+            <div id="front-page-content" style="display: flex;">
+                <div class="spacebox"></div>
+                <div class="image">
+                    <br><img src="0.jpg" class='main-picture' alt="meme">
+                </div>
+                <div class="about-me">
+                    <p>Ethan Wu is a journalist and student based in Ithaca, NY.</p> 
+
+                    <p>He has written on the global economy, cryptocurrency, media, advertising technology, and antitrust. His work has appeared in Adweek, Project Syndicate, the Brookings Institution, Nikkei Asian Review, Blockchain Land, and The Cornell Daily Sun.</p>
+                        
+                        <p>Ethan is completing a degree in economics at Cornell University and hails from Sacramento, CA.</p>
+                </div>
+                <div class="spacebox"></div>
+                
+                
+            </div>
+
+        </main>
+        
+        <footer>
+            <br>Designed by <a href="https://elliotthenne.com" target="blank">Elliott</a>
+        </footer>
+    </body>
+
+</html>

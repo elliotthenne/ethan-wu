@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<style>
+    body {
+        /*background-color: rgb(180, 180, 180);*/
+        /*background-image: url(cork-board.png);    <! --<h3><a href="https://www.adweek.com/programmatic/advertisers-keyword-blocking-protest/" target="blank">Advertisers Now Have a New Keyword Concern: ‘Protest’</a></h3>
+                    <p><a href="https://www.adweek.com/programmatic/advertisers-keyword-blocking-protest/" target="blank"><img src="Advertisers-blocking-protest-CONTENT-2020.jpg" class="article-image"></a></p>
+                    <p><b>June 16, 2020</b>  |  Just as the wave of Covid-19 keyword blocking began to ease, advertisers turned their brand safety concerns to another news story...</p>
+
+                    <h3><a href="https://www.adweek.com/digital/what-marketers-should-know-about-how-covid-19-is-changing-gen-c-as-consumers/" target="blank">What Marketers Should Know About How Covid-19 Is Changing Gen C as Consumers</a></h3>
+                    <p><a href="https://www.adweek.com/digital/what-marketers-should-know-about-how-covid-19-is-changing-gen-c-as-consumers/" target="blank"><img src="covid19-changed-kids-CONTENT-2020.jpg" class="article-image"></a></p>
+                    <p><b>June 9, 2020</b>  |  Brands have a fresh chance to connect with “Generation C,” the emerging generation of kids and teens that has seen Covid-19 transform their lives...</p>
+
+                    <h3><a href="https://www.project-syndicate.org/commentary/anatomy-of-covid19-global-economic-collapse-by-eswar-prasad-and-ethan-wu-1-2020-04?barrier=accesspaylog" target="blank">Anatomy of the Coronavirus Collapse</a></h3>
+                    <p><a href="https://www.project-syndicate.org/commentary/anatomy-of-covid19-global-economic-collapse-by-eswar-prasad-and-ethan-wu-1-2020-04?barrier=accesspaylog" target="blank"><img src="1f390585ccc576ec4d1da7b422def6e9.2-1-super.1.jpg" class="article-image"></a></p>
+                    <p><b>Apr 13, 2020</b>  |  The world economy is on the precipice of its worst crisis since World War II...</p>*/
+        color: rgb(0, 0, 0);
+        font-family:georgia,palatino,book antiqua,palatino linotype,serif;
+        display: flex;
+        flex-direction: column;
+        height:100%;
+    }
+    nav {
+        display: flex;
+        font-size: 24px;
+        font-family: palatino;
+    }
+    nav a:visited {
+        color: black;
+    }
+    nav div{
+        border: 0px #cfc solid;
+    }
+    main {
+        background-image: url();
+        height:auto;
+        filter: blur(0.4px);
+        -webkit-filter: blur(0.4px);
+    }
+    html {
+        height:98%;
+    }
+    .navbox1 {
+      flex: 2;
+      text-align: end;  
+    }
+    .navbox2 {
+        flex: 1;
+        text-align:center;
+    }
+    .navbox3 {
+        flex: 2;
+    }
+    #separating-line {
+        border: 1px black solid;
+        margin-top:-15px;
+        margin-bottom: -9px;
+    }
+    .main-picture {
+        border-color: darkgrey;
+        border-width: 0px;
+        border-style: solid;
+        border-radius: 1%;
+        padding-left: 1em;
+        padding-right: 1em;
+    } 
+    #title {
+        align-content: center;
+        /*background-color: aqua;*/
+        text-align: center;
+        font-size: 46px;
+    }
+    
+    }
+    #front-page-content{ 
+        display: flex;
+        
+    }
+    .spacebox {
+        flex: 14
+    }
+    .image {
+        text-align: center;
+        flex: 1;
+        background-color: rgba(0,0,0, 0.8);
+
+    }
+    .about-me {
+        flex: 24;
+        border:10px white;
+        background-color: rgba(0,0,0, 0.8);
+        color: white;
+        padding-right: 4px;
+    }
+    nav a:link {
+        text-decoration: none;
+        color: black;
+    }
+    nav a:visited {
+    text-decoration: none;
+}
+    nav a:hover {
+        color: #3366CC; text-decoration: underline;
+    }
+    h1 {
+        font-weight: 700;
+    }
+    footer {
+        text-align: center;
+        
+    }
+    #row1 {
+        height: auto;
+        display: flex;
+    }
+    #row2 {
+        height: auto;
+        display: flex;
+    }
+    .row1box {
+        flex: 1;
+        text-align: center;
+        
+    }
+    .row2box{
+        flex: 2;
+        text-align: left: ;;
+    }
+    .article-image {
+        height: 180px;
+    }
+    h3 a:link {
+        text-decoration: none;
+        color: black;
+    }
+    h3 a:hover {
+        text-decoration: underline;
+    }
+    h3 a:visited {
+        color: black;
+    }
+    p a:link {
+        text-decoration: underline;
+        color: black;
+    }
+@media (max-width: 1050px) {
+    .article-image {
+        height: 100px;
+    }
+}
+@media (max-width: 600px) {
+    .article-image {
+        height: 50px;
+    }
+}
+    h4 {
+        text-align: center;
+    }
+    li a:link {
+        text-decoration: none;
+        color: black;
+    }
+    li a:hover {
+        text-decoration: underline;
+    }
+    footer {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    footer a:link {
+        text-decoration: none;
+        color:black
+    }
+    footer a:hover {
+        color: blanchedalmond;
+    }
+</style>
+<html>
+    <head>
+        <title>Ethan Wu - Articles</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Ethan Wu</h1>
+            <nav>
+                <div class="navbox1">
+                    <a href="main.html">Home</a> 
+                </div>
+                <div class="navbox2">
+                    <a href="articles.html">Articles</a>
+                </div>
+                <div class="navbox3">
+                    <a href="contact.html">Contact</a>
+                </div>
+            </nav> 
+            <br><div id="separating-line"></div><br>
+        </header>
+        <main>
+            <div id="row1">
+                <div class="row1box">
+                    <h3><a href="https://www.adweek.com/programmatic/zeotap-series-c-42-million-crossfit-ceo-eric-roza-joins-board/" target="blank">Zeotap Scoops $42 Million as CrossFit’s Eric Roza Joins Board</a></h3>
+                    <p><a href="https://www.adweek.com/programmatic/zeotap-series-c-42-million-crossfit-ceo-eric-roza-joins-board/" target="blank"><img src="erik-joins-zeotap-CONTENT-2020.jpg" class="article-image"></a></p>
+                    <p><b>July 15, 2020</b>  |  Eric Roza, the incoming CEO of CrossFit, is joining customer analytics platform Zeotap’s board...</p>
+                    
+                </div>
+                <div class="row1box">
+                    <h3><a href="https://www.adweek.com/programmatic/ad-techs-top-investment-banker-on-who-will-and-wont-survive-the-pandemic-paralysis/" target="blank">Ad Tech’s Top Investment Banker on Who Will and Won’t Survive the Pandemic</a></h3>
+                    <p><a href="https://www.adweek.com/programmatic/ad-techs-top-investment-banker-on-who-will-and-wont-survive-the-pandemic-paralysis/" target="blank"><img src="nexttech-narrative-CONTENT-2020.jpg" class="article-image"></a></p>
+                    <p><b>July 9, 2020</b>  |  Despite online audiences and engagement spiking amid global stay-at-home...</p> 
+                </div>
+                <div class="row1box">
+                    <h3><a href="https://www.adweek.com/programmatic/as-potential-federal-probes-loom-google-faces-smaller-antitrust-suits/" target="blank">As Potential Federal Probes Loom, Google Faces Smaller Antitrust Suits</a></h3>
+                    <p><a href="https://www.adweek.com/programmatic/as-potential-federal-probes-loom-google-faces-smaller-antitrust-suits/" target="blank"><img src="sundar-pichai-google-lawsuits-CONTENT-2020.jpg" class="article-image"></a></p>
+                    <p><b>June 24, 2020</b>  |  A suit filed this week in a San Jose district court alleges Google violated the... </p>
+
+                </div>
+            </div>
+            <div id="row2">
+                <div class="row1box"></div>
+                <div class="row2box">
+                    <h4>More Articles</h4>
+                    <ul>
+                        <li><b>July 9, 2020  </b>|  <a href="https://www.adweek.com/agencies/how-cbd-brand-myremede-is-growing-like-a-weed/" target="blank">How CBD Brand MyRemede Is Growing Like a Weed</a></li>
+                        <li><b>June 26, 2020  </b>|  <a href="https://www.adweek.com/programmatic/data-privacy-infosum-throtle-partner-decentralized-ad-id/" target="blank">InfoSum and Throtle Link Up to Create Decentralized Ad ID Solution</a></li>
+                        <li><b>June 21, 2020  </b>|  <a href="https://www.adweek.com/programmatic/cannes-lions-rose-wine-app-cognitiv/" target="blank">This App Can’t Take You to Cannes Lions, but It Can Help You Feel Like You’re There</a></li>
+                        <li><b>June 17, 2020  </b>|  <a href="https://www.adweek.com/programmatic/advertisers-help-publishers-protect-data-bpa/" target="blank">BPA Calls on Advertisers to Help Publishers Protect Data</a></li>
+                        <li><b>June 16, 2020  </b>|  <a href="https://www.adweek.com/programmatic/advertisers-keyword-blocking-protest/" target="blank">Advertisers Now Have a New Keyword Concern: ‘Protest’</a></li>
+                        <li><b>June 9, 2020  </b>|  <a href="https://www.adweek.com/digital/what-marketers-should-know-about-how-covid-19-is-changing-gen-c-as-consumers/" target="blank">What Marketers Should Know About How Covid-19 Is Changing Gen C as Consumers</a></li>
+                        <li><b>April 13, 2020  </b>|  <a href="https://www.project-syndicate.org/commentary/anatomy-of-covid19-global-economic-collapse-by-eswar-prasad-and-ethan-wu-1-2020-04?barrier=accesspaylog" target="blank">Anatomy of the Coronavirus Collapse</a></li>
+                        <li><b>April 12, 2020  </b>|  <a href="https://www.brookings.edu/research/april-2020-update-to-tiger-the-coronavirus-collapse-is-upon-us/" target="blank">April 2020 update to TIGER: The coronavirus collapse is upon us</a></li>
+                        <li><b>April 8, 2020  </b>|  <a href="https://theblockchainland.com/2020/04/08/venezuela-state-cryptocurrency-milestone/" target="blank">Venezuela’s State Cryptocurrency Is a Milestone</a></li>
+                        <li><b>October 16, 2019  </b>|  <a href="https://www.business-standard.com/article/opinion/can-synchronised-stagnation-be-stopped-119101600005_1.html" target="blank">Can synchronised stagnation be stopped?</a></li>
+                        <li><b>September 24, 2019  </b>|  <a href="https://cornellsun.com/2019/09/24/editorial-tracy-mitranos-second-go-is-a-bet-on-moderation/" target="blank">Tracy Mitrano’s Second Go Is a Bet on Moderation</a></li>
+                        <li><b>September 5, 2019  </b>|  <a href="https://cornellsun.com/2019/09/05/editorial-how-to-fix-cornells-least-liked-organization/" target="blank">How to Fix Cornell’s Least-Liked Organization</a></li>
+                        <li><b>August 29, 2019  </b>|  <a href="https://cornellsun.com/2019/08/29/editorial-cornell-is-under-federal-investigation-its-been-here-before/" target="blank">Cornell Is Under Federal Investigation. It’s Been Here Before.</a></li>
+                        <li><b>May 1, 2019  </b>|  <a href="https://cornellsun.com/2019/05/01/editorial-good-riddance-to-the-event-security-fee/" target="blank">Good Riddance to the Event Security Fee</a></li>
+                        <li><b>April 24, 2019  </b>|  <a href="https://cornellsun.com/2019/04/24/editorial-a-messy-but-acceptable-end-to-the-jt-baker-saga/" target="blank">A Messy but Acceptable End to the JT Baker Saga</a></li>
+                        <li><b>April 22, 2019  </b>|  <a href="https://cornellsun.com/2019/04/22/guest-room-snl-is-terrible-political-comedy-for-our-terrible-politics/" target="blank">‘SNL’ Is Terrible Political Comedy for Our Terrible Politics</a></li>
+                        <li><b>April 14, 2019  </b>|  <a href="https://cornellsun.com/2019/04/14/editorial-time-to-divest-from-fossil-fuels/" target="blank">Time to Divest From Fossil Fuels</a></li>
+                        <li><b>April 7, 2019  </b>|  <a href="https://www.brookings.edu/research/april-2019-update-to-tiger-world-economy-lurches-from-uneven-recovery-to-synchronized-slowdown/" target="blank">World economy lurches from uneven recovery to synchronized slowdown</a></li>
+                        <li><b>April 5, 2019  </b>|  <a href="https://asia.nikkei.com/Opinion/Beware-the-darkening-clouds-over-global-trade" target="blank">Beware the darkening clouds over global trade</a></li>
+                        <li><b>March 28, 2019  </b>|  <a href="https://cornellsun.com/2019/03/28/editorial-cornells-hush-hush-huawei-ties/" target="blank">Cornell’s Hush-Hush Huawei Ties</a></li>
+                        <li><b>February 26, 2019  </b>|  <a href="https://cornellsun.com/2019/02/26/editorial-ditch-the-event-security-fee/" target="blank">EDITORIAL: Ditch the Event Security Fee</a></li>
+                        <li><b>February 12, 2019  </b>|  <a href="https://cornellsun.com/2019/02/12/editorial-the-sun-endorses-spring-2019-s-a-special-election-candidates/" target="blank">EDITORIAL: The Sun Endorses Spring 2019 S.A. Special Election Candidates</a></li>
+                        <li><b>February 5, 2019  </b>|  <a href="https://cornellsun.com/2019/02/05/editorial-past-time-to-investigate-cornells-qatar-campus/" target="blank">Past Time to Investigate Cornell’s Qatar Campus</a></li>
+                        <li><b>December 3, 2018  </b>|  <a href="https://cornellsun.com/2018/12/03/wu-the-questions-affirmative-action-conceals/" target="blank">The Questions Affirmative Action Conceals</a></li>
+                        <li><b>November 7, 2018  </b>|  <a href="https://cornellsun.com/2018/11/07/wu-how-the-next-extreme-ithaca-liberal-can-beat-tom-reed/" target="blank">How the Next ‘Extreme Ithaca Liberal’ Can Beat Tom Reed</a></li>
+                        <li><b>October 22, 2018  </b>|  <a href="https://cornellsun.com/2018/10/22/wu-brett-kavanaugh-is-a-warning-sign-for-american-democracy/" target="blank">Brett Kavanaugh Is a Warning Sign for American Democracy</a></li>
+                        <li><b>October 17, 2018  </b>|  <a href="https://asia.nikkei.com/Opinion/China-must-take-care-in-countering-trade-war-s-economic-blows" target="blank">China must take care in countering trade war's economic blows</a></li>
+                        <li><b>September 24, 2018  </b>|  <a href="https://cornellsun.com/2018/09/24/wu-a-career-in-finance-ten-years-after-the-crisis/" target="blank">A Career in Finance, Ten Years After the Crisis</a></li>
+                        <li><b>August 27, 2018  </b>|  <a href="https://cornellsun.com/2018/08/27/wu-tracy-mitranos-sweet-nothings/" target="blank">Tracy Mitrano’s Sweet Nothings</a></li>
+                        <li><b>June 4, 2018  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2018/06/04/Shrugging-at-the-Banking-Bill" target="blank">Shrugging at the Banking Bill</a></li>
+                        <li><b>April 28, 2018  </b>|  <a href="https://sunspots.cornellsun.com/2018/04/28/the-radical-center-the-wsjs-trump-smokescreen/" target="blank">THE RADICAL CENTER | THE WSJ’S TRUMP SMOKESCREEN</a></li>
+                        <li><b>April 7, 2018  </b>|  <a href="https://sunspots.cornellsun.com/2018/04/07/the-radical-center-time-to-debate-the-second-amendment/" target="blank">THE RADICAL CENTER | TIME TO DEBATE THE SECOND AMENDMENT</a></li>
+                        <li><b>March 15, 2018  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2018/03/14/The-Unstoppable-and-the-Immovable" target="blank">The Unstoppable and the Immovable</a></li>
+                        <li><b>March 2, 2018  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2018/03/02/Musings-The-No-Trump-Edition" target="blank">Musings: The No-Trump Edition</a></li>
+                        <li><b>February 20, 2018  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2018/02/20/Blaming-the-Culture" target="blank">Blaming the Culture</a></li>
+                        <li><b>February 17, 2018  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2018/02/17/Musings-The-Times-Robert-Mueller-the-North" target="blank">Musings: The Times, Mueller, the North</a></li>
+                        <li><b>February 15, 2018  </b>|  <a href="https://sunspots.cornellsun.com/2018/02/15/the-radical-center-north-koreas-olympics-distraction/" target="blank">THE RADICAL CENTER | NORTH KOREA’S OLYMPICS DISTRACTION</a></li>
+                        <li><b>February 9, 2018  </b>|  <a href="https://sunspots.cornellsun.com/2018/02/09/the-radical-center-the-big-tech-bust-up/" target="blank">THE RADICAL CENTER | THE BIG TECH BUST-UP</a></li>
+                        <li><b>January 22, 2018  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2018/01/22/The-Shifting-Sands-of-Conservatism" target="blank">The Shifting Sands of Conservatism</a></li>
+                        <li><b>December 15, 2017  </b>|  <a href="https://sunspots.cornellsun.com/2017/12/15/the-radical-center-the-year-gone-by/" target="blank">THE RADICAL CENTER | THE YEAR GONE BY</a></li>
+                        <li><b>November 30, 2017  </b>|  <a href="https://sunspots.cornellsun.com/2017/11/30/the-radical-center-the-metoo-moral-panic/" target="blank">THE RADICAL CENTER | THE #METOO MORAL PANIC</a></li>
+                        <li><b>November 13, 2017  </b>|  <a href="https://sunspots.cornellsun.com/2017/11/13/the-radical-center-the-perils-of-speculation/" target="blank">THE RADICAL CENTER | THE PERILS OF SPECULATION</a></li>
+                        <li><b>October 27, 2017  </b>|  <a href="https://sunspots.cornellsun.com/2017/10/27/the-radical-center-in-search-of-a-new-politics/" target="blank">THE RADICAL CENTER | IN SEARCH OF A NEW POLITICS</a></li>
+                        <li><b>August 15, 2017  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2017/08/15/Trumponomic-Policy-Priorities" target="blank">Trumponomic Policy Priorities</a></li>
+                        <li><b>June 29, 2017  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2017/06/29/Republicanism-Edges-Out-Conservatism" target="blank">Republicanism Edges Out Conservatism</a></li>
+                        <li><b>May 26, 2017  </b>|  <a href="https://ethanwu20.wixsite.com/middleground/single-post/2017/05/26/This-Broken-White-House" target="blank">This Broken White House</a></li>
+                        
+                        
+
+                    </ul>
+
+                    
+                </div>
+                <div class="row1box"></div>
+            </div>
+        </main>
+        <footer>
+            <br>Designed by <a href="https://elliotthenne.com" target="blank">Elliott </a>
+        </footer>
+        
+    </body>
+    
+
+
